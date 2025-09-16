@@ -48,3 +48,9 @@ C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Domai
 C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Application.dll
 C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Application.pdb
 C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\obj\Debug\net9.0\Knižnica.sourcelink.json
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\AutoMapper.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll

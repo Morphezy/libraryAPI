@@ -1,4 +1,5 @@
 using Application;
+using Application.Repositories;
 
 namespace Knižnica;
 
@@ -8,11 +9,12 @@ public class DependencyInjection
     {
      services.AddControllers();
      services.AddAutoMapper(typeof(BookMapProfile).Assembly);
+     services.AddHostedService<DatabaseInitializer>();
      initializeServices(services);
     }
     
     public static void initializeServices(IServiceCollection services)
     {
-        services.AddScoped<IBookRepository, IBookRepository>();
+        services.AddScoped<IBookRepository, BookRepository>();
     }
 }
