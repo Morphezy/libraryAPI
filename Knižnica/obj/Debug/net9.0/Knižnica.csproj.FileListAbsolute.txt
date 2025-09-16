@@ -45,3 +45,6 @@ C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Domai
 C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Infrastructure.dll
 C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Infrastructure.pdb
 C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Domain.pdb
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Application.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\bin\Debug\net9.0\Application.pdb
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Knižnica\obj\Debug\net9.0\Knižnica.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Knižnica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2710161749e0f4323b36315d9bd513d268d90eee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Knižnica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Knižnica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
