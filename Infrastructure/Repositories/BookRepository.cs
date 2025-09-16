@@ -76,6 +76,8 @@ public class BookRepository(IConfiguration config) : IBookRepository
         {
             
        var book = await db.QueryFirstOrDefaultAsync<Book>("select * from public.books where id = @id", new{id});
+       book?.ChangeAvailability(); 
+       return book!;
         }
     }
 
