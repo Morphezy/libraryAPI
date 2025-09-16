@@ -1,13 +1,14 @@
+using Knižnica;
+
 var builder = WebApplication.CreateBuilder(args);
 
 
-
+DependencyInjection.ConfigureServices(builder.Services);
 builder.Services.AddOpenApi();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 var app = builder.Build();
-
 
 
 if (app.Environment.IsDevelopment())
