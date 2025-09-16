@@ -1,0 +1,15 @@
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\bin\Debug\net9.0\Infrastructure.deps.json
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\bin\Debug\net9.0\Infrastructure.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\bin\Debug\net9.0\Infrastructure.pdb
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\bin\Debug\net9.0\Domain.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\bin\Debug\net9.0\Domain.pdb
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.AssemblyInfo.cs
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\refint\Infrastructure.dll
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\Infrastructure.pdb
+C:\Users\Surface Book 2\RiderProjects\Knižnica\Infrastructure\obj\Debug\net9.0\ref\Infrastructure.dll

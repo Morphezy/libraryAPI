@@ -1,0 +1,7 @@
+﻿services:
+  knižnica:
+    image: knižnica
+    build:
+      context: .
+      dockerfile: Knižnica/Dockerfile
+
