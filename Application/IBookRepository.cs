@@ -12,5 +12,5 @@ public interface IBookRepository
     
     public Task<Book> Add(Book book);
     public Task<Book> Rent(int id);
-    public Task<Book> Delete(int id);
+    public Task<Book> Return(int id);
 }

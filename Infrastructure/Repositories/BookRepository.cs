@@ -76,13 +76,18 @@ public class BookRepository(IConfiguration config) : IBookRepository
         {
             
        var book = await db.QueryFirstOrDefaultAsync<Book>("select * from public.books where id = @id", new{id});
-       book?.ChangeAvailability(); 
+       book?.RentBook(); 
        return book!;
         }
     }
 
-    public async Task<Book> Delete(int id)
+    public async Task<Book> Return(int id)
     {
-        throw new NotImplementedException();
+        using (IDbConnection db = new NpgsqlConnection(_configuration.GetConnectionString("DefaultConnection")))
+        {
+            var book = await  db.QueryFirstOrDefaultAsync<Book>("select * from public.books where id = @id", new { id });
+            book?.ReturnBook();
+            return book!;
+        }
     }
 }

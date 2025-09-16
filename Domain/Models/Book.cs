@@ -11,24 +11,26 @@ public class Book
     public string Author { get; private set; }
     public string Publisher { get; private set; }
     public DateTime AddedAt { get; private set; } = DateTime.UtcNow;
-    public bool IsAvailable { get; private set; }
+    public bool IsAvailable { get; private set; } = true;
 
     private Book() { }
 
-    public Book(string name, string author, string publisher, bool isAvailable)
+    public Book(string name, string author, string publisher)
     {
         Name = name;
         Author = author;
         Publisher = publisher;
-        IsAvailable = isAvailable;
     }
 
-    public bool ChangeAvailability()
+    public void ReturnBook()
     {
-        IsAvailable = !IsAvailable;
-        if(IsAvailable)
-            AddedAt = DateTime.UtcNow;
-        return (IsAvailable);
+        IsAvailable = true;
+        AddedAt = DateTime.UtcNow;
+    }
+
+    public void RentBook()
+    {
+        IsAvailable = false;
     }
 
     public bool CheckIsAvailable()
