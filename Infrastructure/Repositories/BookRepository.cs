@@ -63,10 +63,10 @@ public class BookRepository(IConfiguration config) : IBookRepository
     {
         using (IDbConnection db = new NpgsqlConnection(_configuration.GetConnectionString("DefaultConnection")))
         {
-            var result = await  db.ExecuteScalarAsync<Book>(@"insert public.books (name, author, publisher)
-             values (@name, @author, @publisher) returning *",
+            var result = await  db.QuerySingleAsync<Book>(@"insert into public.books (name, author, publisher)
+             values (@name, @author, @publisher) returning id, name, author, publisher, is_available as IsAvailable, added_at as AddedAt",
                 new{book.Name, book.Author, book.Publisher});
-            return book;
+            return result;
         }   
     }
 

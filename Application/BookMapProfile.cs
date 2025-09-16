@@ -1,14 +1,13 @@
-using AutoMapper;
+
 using Domain.Dto;
 using Domain.Models;
 
 namespace Application;
 
-public class BookMapProfile : Profile
+public  static class BookMapProfile
 {
-    public BookMapProfile()
+    public static Book AddBookDtoToBookModel(AddBookDto dto)
     {
-        CreateMap<AddBookDto, Book>();
-        CreateMap<Book, AddBookDto>();
+        return   new Book(name:dto.Name, author:dto.Author, publisher:dto.Publisher);
     }
 }
