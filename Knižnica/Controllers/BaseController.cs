@@ -31,6 +31,12 @@ public class BaseController(IConfiguration configuration,
         return Ok(bookAdded);
     }
 
+    [HttpGet("error")]
+    public IActionResult Error()
+    {
+        throw new Exception("Something went wrong");
+    }
+
 
 
 

@@ -42,7 +42,7 @@ public class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger, Requ
 
         var serializedError = JsonSerializer.Serialize(handledError);
 
-        await response.WriteAsJsonAsync(serializedError);
+        await response.WriteAsJsonAsync(handledError);
         
     }
 }
